@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body>
-<p th:text="#{email.hello}" + ${user.firstName} + '.'"/>
+<p th:text="#{email.hello} + ${user.firstName} + '.'"/>
 <p th:text= "#{email.confirm.mail}">Чтобы завершить настройку учетной записи и начать пользоваться JiraRush, подтвердите, что вы правильно указали вашу
     электронную почту.</p>
 <a th:href="${confirmationUrl}" th:text="#{mail.confirmation}">Подтвердить почту</a>
