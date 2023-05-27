@@ -14,9 +14,9 @@ public class ProfileTestData {
     public static final String USER_MAIL= "user@gmail.com";
     public static final String USER_PASSWORD = "password";
     public static final Set<String> USER_MAIL_NOTIFICATIONS = Set.of("assigned", "deadline", "overdue");
-    public static final ContactTo CONTACT_SKYPE = new ContactTo("skype", "SkypeUser");
-    public static final ContactTo CONTACT_MOBILE = new ContactTo("mobile", "+71234567890");
-    public static final ContactTo CONTACT_WEBSITE = new ContactTo("website", "user.ru");
+    public static final ContactTo CONTACT_SKYPE = new ContactTo("skype", "userSkype");
+    public static final ContactTo CONTACT_MOBILE = new ContactTo("mobile", "+01234567890");
+    public static final ContactTo CONTACT_WEBSITE = new ContactTo("website", "user.com");
     public static final ContactTo USER_CONTACT_SKYPE = new ContactTo("skype", "SkypeUser");
     public static final ContactTo USER_CONTACT_WEBSITE = new ContactTo("website", "user.ru");
 
